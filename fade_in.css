@@ -1,6 +1,9 @@
 #trigger:checked+#main_content {
-    animation: fadeIn 2s ease 0s 1 normal;
-    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+    animation-name:fadeIn;
+    animation-duration:  1s;
+    animation-timing-function:  ease;
+    
+    -webkit-animation: fadeIn 1s ease 0s 1 normal;
 }
 
 
